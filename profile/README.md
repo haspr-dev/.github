@@ -5,34 +5,23 @@
 <h1 align="center">pbolt</h1>
 
 <p align="center">
-  <strong>Fast, automation-friendly CLI, Go SDK, and in-memory credential agent compatible with Passbolt.</strong>
+  <strong>Fast, automation-friendly CLI, Go SDK, Browser Extension, and Credential Agent compatible with Passbolt.</strong>
 </p>
 
 <p align="center">
   <a href="https://github.com/pbolt-dev/go-pbolt-cli"><img src="https://img.shields.io/badge/CLI-go--pbolt--cli-0bddec?style=flat-square&logo=go" alt="go-pbolt-cli" /></a>
   <a href="https://github.com/pbolt-dev/go-pbolt"><img src="https://img.shields.io/badge/SDK-go--pbolt-199ee9?style=flat-square&logo=go" alt="go-pbolt" /></a>
-  <a href="https://github.com/pbolt-dev/go-pbolt-cli/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-fdae15?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/pbolt-dev/pbolt-browser-extension"><img src="https://img.shields.io/badge/Extension-pbolt--browser--extension-f9a912?style=flat-square" alt="Browser Extension" /></a>
+  <a href="https://github.com/pbolt-dev/pbolt-api"><img src="https://img.shields.io/badge/API-pbolt--api-256af2?style=flat-square" alt="API" /></a>
 </p>
 
 ---
 
 ## ⚡ Overview
 
-**pbolt** is a community-driven fork of the official Passbolt Go CLI and SDK. It is built for engineers, DevOps teams, and automation workflows that require frictionless security without compromising cryptographic integrity.
+**pbolt** is a community-driven ecosystem compatible with [Passbolt](https://www.passbolt.com), the open-source password manager for teams. It is built for engineers, DevOps teams, and automation workflows that require frictionless security without compromising cryptographic integrity.
 
-While fully maintaining wire-format and server API compatibility with [Passbolt](https://www.passbolt.com), **pbolt** eliminates daily friction points in local dev loops, shell scripts, and CI/CD pipelines.
-
----
-
-## 🚀 Key Highlights & Enhancements
-
-- 🔑 **Interactive Auth Agent (`pbolt auth agent`)**: In-memory token caching daemon with session TTL. Authenticate once with your passphrase and 2FA/TOTP; subsequent commands reuse the active session seamlessly.
-- ⚡ **Zero-Plaintext Integration (`--raw` Output)**: Output secret values directly to stdout without formatting overhead, enabling zero-disk-storage token chaining with CLIs like `hcloud` (`token_command`), `curl`, and custom scripts.
-- 🛠️ **Full Administrative API Coverage**:
-  - Complete user lifecycle management (activate, suspend, delete, recover).
-  - Organization settings inspection and configuration.
-  - Group membership administration (safe demotions, member management, detail views).
-- 🔄 **Drop-in Compatibility**: Command aliases and compatibility symlinks allow `pbolt` to serve as a seamless drop-in replacement for `passbolt`.
+While fully maintaining wire-format and server API compatibility, **pbolt** eliminates daily friction points in local dev loops, shell scripts, and CI/CD pipelines.
 
 ---
 
@@ -40,18 +29,10 @@ While fully maintaining wire-format and server API compatibility with [Passbolt]
 
 | Repository | Description |
 | :--- | :--- |
-| [**`go-pbolt-cli`**](https://github.com/pbolt-dev/go-pbolt-cli) | Feature-complete CLI and authentication agent for Passbolt. |
-| [**`go-pbolt`**](https://github.com/pbolt-dev/go-pbolt) | Robust Go SDK / API client supporting all administrative and user endpoints. |
-
----
-
-## 💻 Quick Install
-
-Download ready-to-run release binaries for Linux, macOS, and Windows from our [Releases page](https://github.com/pbolt-dev/go-pbolt-cli/releases), or install via Go:
-
-```bash
-go install github.com/pbolt-dev/go-pbolt-cli@latest
-```
+| [**`go-pbolt-cli`**](https://github.com/pbolt-dev/go-pbolt-cli) | Fast CLI tool, background authentication agent, and credential helper. |
+| [**`go-pbolt`**](https://github.com/pbolt-dev/go-pbolt) | Robust Go SDK client library for API access and cryptographic workflows. |
+| [**`pbolt-browser-extension`**](https://github.com/pbolt-dev/pbolt-browser-extension) | Browser extensions (Firefox, Chrome, Edge) with native messaging support. |
+| [**`pbolt-api`**](https://github.com/pbolt-dev/pbolt-api) | Community backend API distribution with extended fixes and enhancements. |
 
 ---
 

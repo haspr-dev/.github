@@ -13,6 +13,7 @@
   <a href="https://github.com/pbolt-dev/go-pbolt"><img src="https://img.shields.io/badge/SDK-go--pbolt-199ee9?style=flat-square&logo=go" alt="go-pbolt" /></a>
   <a href="https://github.com/pbolt-dev/pbolt-browser-extension"><img src="https://img.shields.io/badge/Extension-pbolt--browser--extension-f9a912?style=flat-square" alt="Browser Extension" /></a>
   <a href="https://github.com/pbolt-dev/pbolt-api"><img src="https://img.shields.io/badge/API-pbolt--api-256af2?style=flat-square" alt="API" /></a>
+  <a href="https://doc.pbolt.dev"><img src="https://img.shields.io/badge/Docs-doc.pbolt.dev-10b981?style=flat-square" alt="Documentation" /></a>
 </p>
 
 ---
@@ -33,6 +34,7 @@ While fully maintaining wire-format and server API compatibility, **pbolt** elim
 | [**`go-pbolt`**](https://github.com/pbolt-dev/go-pbolt) | Robust Go SDK client library for API access and cryptographic workflows. |
 | [**`pbolt-browser-extension`**](https://github.com/pbolt-dev/pbolt-browser-extension) | Browser extensions (Firefox, Chrome, Edge) with native messaging support. |
 | [**`pbolt-api`**](https://github.com/pbolt-dev/pbolt-api) | Community backend API distribution with extended fixes and enhancements. |
+| [**`pbolt-docs`**](https://github.com/pbolt-dev/pbolt-docs) | Official documentation site published to [doc.pbolt.dev](https://doc.pbolt.dev). |
 | [**`pbolt-styleguide`**](https://github.com/pbolt-dev/pbolt-styleguide) | Shared UI styling, assets, themes, and React components. |
 | [**`pbolt-docker`**](https://github.com/pbolt-dev/pbolt-docker) | Official Docker container packaging and configurations. |
 | [**`pbolt-packaging`**](https://github.com/pbolt-dev/pbolt-packaging) | Distribution packaging scripts and packages. |

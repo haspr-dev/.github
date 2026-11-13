@@ -14,7 +14,7 @@
   <a href="https://github.com/haspr-dev/haspr-browser-extension"><img src="https://img.shields.io/badge/Extension-haspr--browser--extension-f9a912?style=flat-square" alt="Browser Extension" /></a>
   <a href="https://github.com/haspr-dev/haspr-api"><img src="https://img.shields.io/badge/API-haspr--api-256af2?style=flat-square" alt="API" /></a>
   <a href="https://github.com/haspr-dev/homebrew-tap"><img src="https://img.shields.io/badge/Homebrew-homebrew--tap-fbb040?style=flat-square&logo=homebrew" alt="Homebrew Tap" /></a>
-  <a href="https://haspr-dev.github.io/debian-repository/"><img src="https://img.shields.io/badge/APT-debian--repository-d70a53?style=flat-square&logo=debian" alt="Debian Repository" /></a>
+  <a href="https://package.haspr.dev"><img src="https://img.shields.io/badge/Packages-package.haspr.dev-d70a53?style=flat-square&logo=linux" alt="Linux Packages" /></a>
   <a href="https://doc.haspr.dev"><img src="https://img.shields.io/badge/Docs-doc.haspr.dev-10b981?style=flat-square" alt="Documentation" /></a>
 </p>
 
@@ -42,7 +42,7 @@ While fully maintaining wire-format and server API compatibility, **Haspr** elim
 | [**`haspr-packaging`**](https://github.com/haspr-dev/haspr-packaging) | Distribution packaging scripts and packages. |
 | [**`haspr-selenium`**](https://github.com/haspr-dev/haspr-selenium) | End-to-end Selenium test suite. |
 | [**`homebrew-tap`**](https://github.com/haspr-dev/homebrew-tap) | Homebrew formulas and tap for Haspr CLI and tools. |
-| [**`debian-repository`**](https://github.com/haspr-dev/debian-repository) | Official Debian & Ubuntu APT package repository for Haspr tools. |
+| [**`package-repository`**](https://github.com/haspr-dev/package-repository) | Official Linux package repository (APT & RPM) hosted at [package.haspr.dev](https://package.haspr.dev). |
 
 ---
 
